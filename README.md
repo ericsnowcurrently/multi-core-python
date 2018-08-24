@@ -27,3 +27,12 @@ At a high level, we're doing the following concrete tasks:
 
 * [PEP 554 (Multiple Interpreters in the Stdlib)](https://www.python.org/dev/peps/pep-0554/)
 * improve interpreter isolation (especially by moving fields from `PyRuntimeState` to `PyInterpreterState`)
+
+### constraints / requirements
+
+1. no significant impact on single-threaded performance
+1. maintain backward compatibility (C-API, etc.)
+1. (pseudo-)compatibility with multiprocessing/threading/concurrent.futures APIs
+1. a multi-core concurrency model/approach that fits our brains
+1. Python APIs
+1. supportable on other Python implementations
