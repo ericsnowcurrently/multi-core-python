@@ -14,7 +14,11 @@ From my [python-ideas post](https://mail.python.org/pipermail/python-ideas/2015-
     effort must make multi-core (and concurrency) support in Python obvious,
     unmistakable, and undeniable (and keep it Pythonic).
 
-The goal of this project is to do just that, by using the existing subinterpreter C-API.  The minimal multi-core solution will involve:
+The goal of this project is to do just that, by using the existing subinterpreter C-API.
+
+### Solution
+
+The minimal multi-core solution will involve:
 
 * resolving existing bugs and blockers
 * exposing the existing support (from C-API) in a stdlib module
@@ -28,7 +32,7 @@ At a high level, we're doing the following concrete tasks:
 * [PEP 554 (Multiple Interpreters in the Stdlib)](https://www.python.org/dev/peps/pep-0554/)
 * improve interpreter isolation (especially by moving fields from `PyRuntimeState` to `PyInterpreterState`)
 
-### constraints / requirements
+### Constraints / Requirements
 
 1. no significant impact on single-threaded performance
 1. maintain backward compatibility (C-API, etc.)
