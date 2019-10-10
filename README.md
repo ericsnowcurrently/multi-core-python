@@ -40,3 +40,15 @@ At a high level, we're doing the following concrete tasks:
 1. a multi-core concurrency model/approach that fits our brains
 1. Python APIs
 1. supportable on other Python implementations
+
+### Status
+
+* slow progress
+* high level of community excitement
+* increasing number of collaborators
+* [phase 1](https://github.com/ericsnowcurrently/multi-core-python/projects/4) ("minimal solution") completion getting closer
+   * still hopeful for Python 3.9
+   * PEP 554 low-level implementation mostly complete
+   * currently working on moving globals to runtime/interpreter state (or removing them)
+      * will take a while (started with ~1500 global variables)
+   * next up is making memory allocators per-interpreter (and then the GIL itself)
