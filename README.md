@@ -52,3 +52,15 @@ At a high level, we're doing the following concrete tasks:
    * currently working on moving globals to runtime/interpreter state (or removing them)
       * will take a while (started with ~1500 global variables)
    * next up is making memory allocators per-interpreter (and then the GIL itself)
+
+### Key Collaborators
+
+This project wouldn't be what it is without the help of these great people:
+
+* @ncoghlan - inspired the solution; PEP 432
+* @encukou - better subinterpreter support in extension modules
+* @vstinner - all sorts of runtime stuff
+* @emilyemorehouse - reviews & sanity checks
+* @nanjekyejoannah - C-API; PEP 554 high-level module
+* @eduardo-elizondo (Facebook/Instagram) - extension modules; globals
+* @vsajip - globals
