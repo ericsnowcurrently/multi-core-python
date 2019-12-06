@@ -57,6 +57,8 @@ At a high level, we're doing the following concrete tasks:
 
 There are many ways to contribute to this project.  Aside from the main technical work in the CPython runtime, there are also a number of jobs that need to be done that are less expert-related and even (somewhat) non-technical.  All of it is important and anyone interested in helping is welcome!
 
-Keep in mind that this project/repo is actually just a tool to organize the effort.  The actual work is done on bugs.python.org, github.com/python/cpython, and the [python-dev](https://mail.python.org/archives/list/python-dev@python.org/) mailing list.  Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurrently) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
+Keep in mind that this project/repo is actually just a tool to organize the effort.  The actual work is done on [bugs.python.org](https://bugs.python.org/), [github.com/python/cpython](https://github.com/python/cpython/), and the [python-dev](https://mail.python.org/archives/list/python-dev@python.org/) mailing list.
+
+Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurrently) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
 
 For more information see the [wiki page](https://github.com/ericsnowcurrently/multi-core-python/wiki/9-%22How-Can-I-Help%3F%22).
