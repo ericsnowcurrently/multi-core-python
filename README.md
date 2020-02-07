@@ -53,6 +53,18 @@ At a high level, we're doing the following concrete tasks:
       * will take a while (started with ~1500 global variables)
    * next up is making memory allocators per-interpreter (and then the GIL itself)
 
+### Key Collaborators
+
+This project wouldn't be what it is without the help of these great people:
+
+* @ncoghlan - inspired the solution; PEP 432
+* @encukou - better subinterpreter support in extension modules
+* @vstinner - all sorts of runtime stuff
+* @emilyemorehouse - reviews & sanity checks
+* @nanjekyejoannah - C-API; PEP 554 high-level module
+* @eduardo-elizondo (Facebook/Instagram) - extension modules; globals
+* @vsajip - globals
+
 ## Contributing
 
 There are many ways to contribute to this project.  Aside from the main technical work in the CPython runtime, there are also a number of jobs that need to be done that are less expert-related and even (somewhat) non-technical.  All of it is important and anyone interested in helping is welcome!
@@ -62,3 +74,4 @@ Keep in mind that this project/repo is actually just a tool to organize the effo
 Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurrently) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
 
 For more information see the [wiki page](https://github.com/ericsnowcurrently/multi-core-python/wiki/9-%22How-Can-I-Help%3F%22).
+
