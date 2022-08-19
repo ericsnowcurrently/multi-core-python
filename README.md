@@ -64,6 +64,7 @@ This project wouldn't be what it is without the help of these great people:
 * @nanjekyejoannah - C-API; PEP 554 high-level module
 * @eduardo-elizondo (Facebook/Instagram) - extension modules; globals
 * @vsajip - globals
+* many others
 
 ## Contributing
 
