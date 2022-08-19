@@ -75,7 +75,3 @@ Keep in mind that this project/repo is actually just a tool to organize the effo
 Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurrently) directly is fine, but you might get a faster response through those other channels or through the issue tracker here. :)
 
 For more information see the [wiki page](https://github.com/ericsnowcurrently/multi-core-python/wiki/9-%22How-Can-I-Help%3F%22).
-
-* [ ] option 1
-* [ ] option 2
-* [ ] option 3
