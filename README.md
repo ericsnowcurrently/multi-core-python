@@ -76,3 +76,6 @@ Also note that contacting [@ericsnowcurrently](https://github.com/ericsnowcurren
 
 For more information see the [wiki page](https://github.com/ericsnowcurrently/multi-core-python/wiki/9-%22How-Can-I-Help%3F%22).
 
+* [ ] option 1
+* [ ] option 2
+* [ ] option 3
